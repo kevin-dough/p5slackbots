@@ -1,6 +1,6 @@
 # Hey Hey Hey!
 ## We are the P5 Slackbots!  -  Kevin Do, Abhijay Deevi, and Kian Kishimoto
-### We are going to make an epic soundboard game
+### We are going to make an epic soundboard game that has sound
 
 ### Table of Collaborators
 ### 1. Kevin Do (Scrum Lord) - kevin-dough
