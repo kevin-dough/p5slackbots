@@ -8,3 +8,4 @@
 ### 3. Kian Kishimoto - Uhpachee2
 
 ## [Project Plan](https://docs.google.com/document/d/1AE2wDFp38JuWuyR5VViy-U6sAXsbcRyoU44dgAqBC0o/edit)
+## [Scrum Board](https://github.com/kevin-dough/p5slackbots/projects/1)
