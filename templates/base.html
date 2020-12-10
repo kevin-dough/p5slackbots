@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="96x96" href="static/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/icons/favicon-16x16.png">
+
+
+    <meta charset="utf-8">
+    <title>SLACKBOARD</title>
+    <style>
+
+        body {
+            background-color:#ffffff;
+        }
+
+    </style>
+</head>
+
+<body>
+<!-- This is the stuff that makes the navigation bar -->
+<nav class="navbar navbar-expand-md navbar-light" style="background-color: #f6f6f6">
+    <div class="mx-auto order-0" style="padding-top:5px">
+        <a class="navbar-brand mx-auto navbarTitle py-0" href="home">
+            <img style="margin-right:10px" src="/static/images/slackbot.png" width="40" height="40" class="d-inline-block align-top" alt="">
+            <span class="navbarTitle">slackboard</span>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" >
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link navbarLink py-0" style="color: #9b9b9b;" href="home">soundboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbarLink py-0" style="color: #9b9b9b;" href="support">support us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbarLink py-0" style="color: #9b9b9b;" href="about">about us</a>
+            </li>
+        </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+{% block index %}
+{% endblock %}
+{% block support %}
+{% endblock %}
+{% block about %}
+{% endblock %}
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
