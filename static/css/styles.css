@@ -11,3 +11,17 @@
     margin-top:10px;
     color: #9b9b9b;
 }
+/* <!-- This is the stuff that we will be using to create the buttons -->
+.butt {
+   border: 1px outset blue;
+   background-color: lightBlue;
+   height:50px;
+   width:50px;
+   cursor:pointer;
+}
+
+.butt:hover {
+   background-color: blue;
+   color:white;
+}
+*/
