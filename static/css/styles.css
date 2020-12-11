@@ -11,6 +11,11 @@
     margin-top:10px;
     color: #9b9b9b;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 /* <!-- This is the stuff that we will be using to create the buttons -->
 .butt {
    border: 1px outset blue;
