@@ -14,7 +14,8 @@ animal noises to the materialistic smacking noises.
 All of these soundboards will be COMPLETELY interactive as you can press the buttons to hear the sound or even
 press a key on your keyboard to make the sound come up. 
 
-
+#### Resources
+For each sound on the sound boards, we will pull data from public sound libraries online, for example https://freesound.org/, https://www.epidemicsound.com/sound-effects/, and https://www.zapsplat.com/. Each sound file has its own url which we'll be able to utilize to link to each button for the soundboard.
 
 
 #### Table of Collaborators
