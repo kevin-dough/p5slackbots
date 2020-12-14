@@ -11,6 +11,7 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+# This is the
 @app.route("/support")
 def support():
     return render_template("support.html")
