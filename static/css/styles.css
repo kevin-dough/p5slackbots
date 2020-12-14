@@ -12,6 +12,21 @@
     color: #9b9b9b;
 }
 
+.aboutName {
+    padding-top:10px;
+    font-family:Open Sans;
+    text-align:center;
+    font-size:1.5em;
+    color: #9b9b9b;
+}
+
+.aboutNick {
+    font-family:Open Sans;
+    text-align:center;
+    font-size:1em;
+    color: #9b9b9b;
+}
+
 * {
   box-sizing: border-box;
 }
