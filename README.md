@@ -19,6 +19,10 @@ For each sound on the sound boards, we will pull data from public sound librarie
 
 #### Images of our code
 
+Home page image: 
+
+About page image: 
+
 #### Table of Collaborators
  1. Kevin Do (Scrum Lord) - kevin-dough
  2. Abhijay Deevi - Dubshott
