@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
 {% block about %}
-
-<div class="row justify-content-around" style="margin-top:5%">
+<h1 class="aboutTitle">meet the team</h1>
+<div class="row justify-content-around" style="margin-top:50px">
 {% for data in groupdatalist: %}
 {% set name = data["name"] %}
 {% set firstname = data["firstname"] %}
