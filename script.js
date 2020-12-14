@@ -1,4 +1,4 @@
-const sounds = ["bruh"];
+const sounds = ["bruh", "cola", "rickroll", "yo"];
 
 sounds.forEach((sound) => {
   const btn = document.createElement("button");
