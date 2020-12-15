@@ -25,15 +25,16 @@
     font-family:Open Sans;
     text-align:center;
     font-size:1.5em;
-    color: #9b9b9b;
+    color: #FFFFFF;
 }
 
 .aboutNick {
     font-family:Open Sans;
     text-align:center;
     font-size:1em;
-    color: #9b9b9b;
+    color: #FFFFFF;
 }
+
 
 * {
   box-sizing: border-box;
@@ -57,6 +58,28 @@
 }
 .btn:focus {
     outline: none;
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    justify-center: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    width: 1200px;
+}
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+    background: #9b9b9b;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+
 }
 /* <!-- This is the stuff that we will be using to create the buttons -->
 .butt {
