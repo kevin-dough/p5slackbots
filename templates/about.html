@@ -13,11 +13,19 @@
 <div class="container">
     <div class="box">
         <div class="circle"></div>
-        <img src="static/images/pixel{{firstname}}.png" width="200px" height="200px">
+        <img class="aboutImage" src="static/images/pixel{{firstname}}.png" width="200px" height="200px">
         <p class="aboutName">{{name}}</p>
         <p class="aboutNick">"{{nickname}}"</p>
     </div>
 </div>
+
+<script src="vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+		max: 25,
+		speed: 400
+	});
+</script>
 
 {% endfor %}
 </div></center>

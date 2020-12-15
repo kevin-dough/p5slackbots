@@ -151,6 +151,24 @@ then use this thing
     opacity: 1;
 }
 
+.container .box .aboutImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 300px;
+    transition: 0.5s;
+    z-index: 9;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,-50%,75px);
+    border-radius: 50%;
+
+}
+
+.container .box:hover .aboutImage {
+    transform: translate3d(-50%, -50%, 100px);
+}
+
 
 
 /* <!-- This is the stuff that we will be using to create the buttons -->
