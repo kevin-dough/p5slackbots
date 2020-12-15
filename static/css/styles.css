@@ -91,9 +91,24 @@
     color: #fff;
     opacity: 0;
     font-style: italic;
+    transition: 0.5s;
 }
 
-.container .box:hover::before {
+.container .box::after {
+    content: 'BER';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 6em;
+    font-weight: 900;
+    color: #fff;
+    opacity: 0;
+    font-style: italic;
+    transition: 0.5s;
+}
+
+.container .box:hover::before,
+.container .box:hover::after {
     opacity: 0.1;
 }
 /* <!-- This is the stuff that we will be using to create the buttons -->
