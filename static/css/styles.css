@@ -20,6 +20,8 @@
     color: #9b9b9b;
 }
 
+/* This is the base for the regular thing so now I just need to put those into the main thing so if you want no animation
+then use this thing
 .aboutName {
     padding-top:10px;
     font-family:Open Sans;
@@ -27,7 +29,7 @@
     font-size:1.5em;
     color: #FFFFFF;
 }
-
+*/
 .aboutNick {
     font-family:Open Sans;
     text-align:center;
@@ -111,6 +113,46 @@
 .container .box:hover::after {
     opacity: 0.1;
 }
+
+.container .box .aboutName {
+    position: absolute;
+    top:0px;
+    left: 50px;
+    font-family: Open Sans;
+    text-align: center;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0,75px);
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+
+.container .box:hover .aboutName {
+    top: 200px;
+    opacity: 1;
+}
+
+.container .box .aboutNick {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,0,75px);
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+.container .box:hover .aboutNick {
+    bottom: 30px;
+    opacity: 1;
+}
+
+
+
 /* <!-- This is the stuff that we will be using to create the buttons -->
 .butt {
    border: 1px outset blue;
