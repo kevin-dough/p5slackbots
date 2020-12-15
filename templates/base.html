@@ -26,7 +26,7 @@
 
 <body>
 <!-- This is the stuff that makes the navigation bar -->
-<nav class="navbar navbar-expand-md navbar-light" style="background-color: #f6f6f6">
+<nav class="navbar navbar-expand-md navbar-light" style="position:fixed;background-color: #f6f6f6;min-width:100%">
     <div class="mx-auto order-0" style="padding-top:5px">
         <a class="navbar-brand mx-auto navbarTitle py-0" href="home">
             <img style="margin-right:10px" src="/static/images/slackbot.png" width="40" height="40" class="d-inline-block align-top" alt="">
@@ -50,6 +50,10 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 </nav>
+
+<div style="padding-top:5%">
+
+</div>
 
 {% block index %}
 {% endblock %}
