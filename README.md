@@ -20,9 +20,11 @@ For each sound on the sound boards, we will pull data from public sound librarie
 #### Database Implementation
 Users
 - names of users that upload to public library
+
 Soundboards/Sounds
 - custom soundboards made by people which can be shared on a public library
 - our default soundboards and their sounds
+
 Recordings
 - recordings can be created and shared to the public library
 
