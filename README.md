@@ -17,6 +17,15 @@ press a key on your keyboard to make the sound come up.
 #### Resources
 For each sound on the sound boards, we will pull data from public sound libraries online, for example https://freesound.org/, https://www.epidemicsound.com/sound-effects/, and https://www.zapsplat.com/. Each sound file has its own url which we'll be able to utilize to link to each button for the soundboard. However, for some of the soundboards we'll make custom sounds by recording and uploading files to use locally. 
 
+#### Database Implementation
+Users
+- names of users that upload to public library
+Soundboards/Sounds
+- custom soundboards made by people which can be shared on a public library
+- our default soundboards and their sounds
+Recordings
+- recordings can be created and shared to the public library
+
 #### Mockup Images
 
 Home Page:
@@ -30,9 +39,11 @@ About Page:
 </p>
 
 #### Table of Collaborators
- 1. Kevin Do (Scrum Lord) - kevin-dough
- 2. Abhijay Deevi - Dubshott
- 3. Kian Kishimoto - Uhpachee2
+|      Name      | Github Username |
+|:--------------:|:---------------:|
+|    Kevin Do    |   kevin-dough   |
+|  Abhijay Deevi |     Dubshott    |
+| Kian Kishimoto |     Uhpachee    |
  
  
 
