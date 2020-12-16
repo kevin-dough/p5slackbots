@@ -23,6 +23,7 @@ Home Page:
 <p>
 <img src="https://media.discordapp.net/attachments/744422103788552192/788653409645101066/unknown.png" height=40% width=40%>
 </p>
+
 About Page: 
 <p>
 <img src="https://media.discordapp.net/attachments/744422103788552192/788653979671199754/unknown.png" height=40% width=40%>
