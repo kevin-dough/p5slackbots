@@ -11,22 +11,29 @@
 {% set nickname = data["nickname"] %}
 
 <div class="container">
-    <div class="box">
+    <div class="box" data-tilt>
         <div class="circle"></div>
         <img class="aboutImage" src="static/images/pixel{{firstname}}.png" width="200px" height="200px">
         <p class="aboutName">{{name}}</p>
         <p class="aboutNick">"{{nickname}}"</p>
     </div>
 </div>
-
-<script src="vanilla-tilt.min.js"></script>
-<script>
+<!-- Code for vanilla-tilt.min
+<script type="text/javascript" src="vanilla-tilt.min.js"></script>
+<script type="text/javascript">
     VanillaTilt.init(document.querySelectorAll(".box"), {
 		max: 25,
 		speed: 400
 	});
 </script>
-
+-->
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".box"), {
+        max: 25,
+        speed: 400
+    });
+</script>
 {% endfor %}
 </div></center>
 
