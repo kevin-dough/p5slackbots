@@ -38,7 +38,7 @@ About Page:
 <img src="https://media.discordapp.net/attachments/744422103788552192/788653979671199754/unknown.png" height=40% width=40%>
 </p>
 
-#### Table of Collaborators
+### Table of Collaborators
 |      Name      | Github Username |
 |:--------------:|:---------------:|
 |    Kevin Do    |   kevin-dough   |
