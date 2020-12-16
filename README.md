@@ -1,6 +1,6 @@
 # slackboard
 #### Created by the P5 Slackbots -  Kevin Do, Abhijay Deevi, and Kian Kishimoto
-
+project still in beta development
 
 #### Description:
 This interactive soundboard allows users to produce their own beats with our sounds or even with their own 
@@ -17,11 +17,16 @@ press a key on your keyboard to make the sound come up.
 #### Resources
 For each sound on the sound boards, we will pull data from public sound libraries online, for example https://freesound.org/, https://www.epidemicsound.com/sound-effects/, and https://www.zapsplat.com/. Each sound file has its own url which we'll be able to utilize to link to each button for the soundboard. However, for some of the soundboards we'll make custom sounds by recording and uploading files to use locally. 
 
-#### Images of our code
+#### Mockup Images
 
-Home page image: 
-
-About page image: 
+Home Page:
+<p>
+<img src="https://media.discordapp.net/attachments/744422103788552192/788653409645101066/unknown.png" height=40% width=40%>
+</p>
+About Page: 
+<p>
+<img src="https://media.discordapp.net/attachments/744422103788552192/788653979671199754/unknown.png" height=40% width=40%>
+</p>
 
 #### Table of Collaborators
  1. Kevin Do (Scrum Lord) - kevin-dough
