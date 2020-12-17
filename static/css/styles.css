@@ -12,6 +12,54 @@
     color: #9b9b9b;
 }
 
+.tutorialTitle {
+    font-family:Open Sans;
+    text-align:center;
+    font-size:4em;
+    color: #9b9b9b;
+}
+
+.tutorialText {
+    font-family:Open Sans;
+    text-align:left;
+    font-size:1.5em;
+    color: #9b9b9b;
+}
+
+.tutorialKey {
+    padding:50px;
+    font-family:Open Sans;
+    color: white;
+    width:150px;
+    height:150px;
+    margin:10px;
+}
+
+.key {
+    padding:30px;
+    font-family:Open Sans;
+    color: white;
+    width:100px;
+    height:100px;
+    margin:10px;
+}
+
+.blueKey {
+    background-color: #92DFF7;
+}
+
+.greenKey {
+    background-color: #8DD7B8;
+}
+
+.yellowKey {
+    background-color: #F5D58D;
+}
+
+.redKey {
+    background-color: #EE85A5;
+}
+
 .aboutTitle {
     padding-top:30px;
     font-family:Open Sans;
