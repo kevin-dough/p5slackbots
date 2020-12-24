@@ -200,6 +200,42 @@
     opacity: 1;
 }
 
+.container .box .aboutSocial1 {
+    position: absolute;
+    font-size:2.5em;
+    top: 130px;
+    left: 0;
+    padding-top:10px;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,0,75px);
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 12;
+}
+.container .box:hover .aboutSocial1 {
+    left: 20px;
+    opacity: 1;
+}
+
+.container .box .aboutSocial2 {
+    position: absolute;
+    font-size:2.5em;
+    top: 180px;
+    left: 0;
+    padding-top:10px;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,0,75px);
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 13;
+}
+.container .box:hover .aboutSocial2 {
+    left:20px;
+    opacity: 1;
+}
+
 .container .box .aboutImage {
     position: absolute;
     top: 50%;

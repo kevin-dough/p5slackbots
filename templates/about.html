@@ -5,9 +5,10 @@
 <center><div class="row justify-content-around" style="width:80%;margin-top:50px">
 {% for data in groupdatalist: %}
 {% set name = data["name"] %}
+{% set color = data["color"] %}
 {% set firstname = data["firstname"] %}
-{% set github = data["github"] %}
-{% set insta = data["insta"] %}
+{% set social1 = data["social1"] %}
+{% set social2 = data["social2"] %}
 {% set nickname = data["nickname"] %}
 
 <div class="container">
@@ -16,6 +17,8 @@
         <img class="aboutImage" src="static/images/pixel{{firstname}}.png" width="200px" height="200px">
         <p class="aboutName">{{name}}</p>
         <p class="aboutNick">"{{nickname}}"</p>
+        <p class="aboutSocial1"><a href="{{social1}}"><i style="color:{{color}}" class="fa fa-github"></i></a></p>
+        <p class="aboutSocial2"><a href="{{social2}}"><i style="color:{{color}}" class="fa fa-instagram"></i></a></p>
     </div>
 </div>
 <!-- Code for vanilla-tilt.min
