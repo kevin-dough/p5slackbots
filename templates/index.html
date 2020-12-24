@@ -7,12 +7,12 @@
     <div style="width:40%;">
         <center>
             <div class="row justify-content-center">
-                <div class="tutorialKey blueKey"><a><p>kick<br>q</p></a></div>
-                <div class="tutorialKey greenKey"><a><p>snare<br>w</p></a></div>
+                <a href="#" onclick="yuhplay()"><div class="tutorialKey blueKey"><p>kick<br>q</p></div></a>
+                <a href="#" onclick="yuhplay()"><div class="tutorialKey greenKey"><p>snare<br>w</p></div></a>
             </div>
             <div class="row justify-content-center">
-                <div class="tutorialKey redKey"><a><p>hat<br>a</p></a></div>
-                <div class="tutorialKey yellowKey"><a><p>yuh<br>s</p></a></div>
+                <a href="#" onclick="yuhplay()"><div class="tutorialKey redKey"><p>hat<br>a</p></div></a>
+                <a href="#" onclick="yuhplay()"><div class="tutorialKey yellowKey"><p>yuh<br>s</p></div></a>
             </div>
         </center>
     </div>
@@ -32,5 +32,12 @@
 
 </div>
 
+<script>
+    yuh = new Audio();
+    yuh.src="yo.mp3";
+    function yuhplay(){
+        yuh.play():
+    }
+</script>
 
 {% endblock %}
