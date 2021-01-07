@@ -35,6 +35,7 @@
     margin:10px;
 }
 
+
 .key {
     padding:30px;
     font-family:Open Sans;
@@ -42,6 +43,10 @@
     width:100px;
     height:100px;
     margin:10px;
+}
+
+a:hover {
+    text-decoration:none;
 }
 
 .blueKey {
@@ -197,6 +202,42 @@
 }
 .container .box:hover .aboutNick {
     bottom: 30px;
+    opacity: 1;
+}
+
+.container .box .aboutSocial1 {
+    position: absolute;
+    font-size:2.5em;
+    top: 130px;
+    left: 0;
+    padding-top:10px;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,0,75px);
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 12;
+}
+.container .box:hover .aboutSocial1 {
+    left: 20px;
+    opacity: 1;
+}
+
+.container .box .aboutSocial2 {
+    position: absolute;
+    font-size:2.5em;
+    top: 180px;
+    left: 0;
+    padding-top:10px;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,0,75px);
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 13;
+}
+.container .box:hover .aboutSocial2 {
+    left:20px;
     opacity: 1;
 }
 
