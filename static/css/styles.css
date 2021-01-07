@@ -49,23 +49,23 @@ a:hover {
     text-decoration:none;
 }
 
-/*
-.blueKey {
+
+#blueKey {
     background-color: #92DFF7;
 }
 
-.greenKey {
+#greenKey {
     background-color: #8DD7B8;
 }
 
-.yellowKey {
+#yellowKey {
     background-color: #F5D58D;
 }
 
-.redKey {
+#redKey {
     background-color: #EE85A5;
 }
-*/
+
 
 .aboutTitle {
     padding-top:30px;
