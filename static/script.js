@@ -34,3 +34,4 @@ sounds.forEach((sound) => {
 function playAudio(url) {
   new Audio(url).play();
 }
+
