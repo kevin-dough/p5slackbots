@@ -36,32 +36,38 @@
 
 
 .key {
-    padding:30px;
+    transition: transform 50ms linear;
+    /*padding:30px;
     font-family:Open Sans;
     color: white;
     width:100px;
     height:100px;
-    margin:10px;
+    margin:10px;*/
 }
+
+img.key:active {
+    transform: scale(0.75, 0.75);
+}
+
 
 a:hover {
     text-decoration:none;
 }
 
 
-#blueKey {
+.blueKey {
     background-color: #92DFF7;
 }
 
-#greenKey {
+.greenKey {
     background-color: #8DD7B8;
 }
 
-#yellowKey {
+.yellowKey {
     background-color: #F5D58D;
 }
 
-#redKey {
+.redKey {
     background-color: #EE85A5;
 }
 

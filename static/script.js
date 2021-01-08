@@ -35,6 +35,7 @@ function playAudio(url) {
   new Audio(url).play();
 }
 
+/*
 img = document.getElementById("blueKey");
 
         function resizeImg() {
@@ -48,3 +49,4 @@ img = document.getElementById("blueKey");
             img.style.height = "auto";
             img.style.transition = "width 0.5s ease";
         }
+*/
