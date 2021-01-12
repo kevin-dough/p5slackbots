@@ -34,6 +34,38 @@
     height:150px;*/
 }
 
+.letsGoBtn {
+    font-family:Open Sans;
+    text-align:center;
+    font-size:1.5em;
+    color: white;
+    background-color: #3d0e3d;
+    padding:15px;
+}
+
+.selectForm {
+    text-align:center;
+    font-family:Open Sans;
+    text-indent: 30%;
+}
+
+.selectBtn {
+    font-family:Open Sans;
+    text-align: center;
+    display:table-cell;
+    vertical-align:middle;
+    font-size:15px;
+    color: white;
+    background-color: #3d0e3d;
+    padding:8px 13px;
+    border-radius:25%;
+    border:none;
+}
+
+a.letsGoBtn:hover, a.letsGoBtn:link {
+    color:white;
+    text-decoration:none;
+}
 
 .key {
     transition: transform 50ms linear;

@@ -12,7 +12,14 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-# This is the
+@app.route("/soundboards")
+def soundboards():
+    return render_template("selector.html")
+
+@app.route("/electronic")
+def electronic():
+    return render_template("soundboard1.html")
+
 @app.route("/support")
 def support():
     return render_template("support.html")
