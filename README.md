@@ -11,6 +11,10 @@ Users will also be able to record and upload their recordings to our public gall
 
 These soundboards aren't the typical click on the screen to make a noise, but they are interactive. From button animations and being able to play sounds with the click of the key, you will be able to produce your own custom beats at ease.
 
+### Week of 1/11 Goals
+- Kian: Database Creation and Implementation
+- Kevin: Soundboard Selection Menu and Basic Layout + Footer w/ Light/Dark Switch
+- Abhijay: Light/Dark Switch Functionality
 
 ### Resources
 For each sound on the sound boards, we will pull data from public sound libraries online, for example https://freesound.org/, https://www.epidemicsound.com/sound-effects/, and https://www.zapsplat.com/. Each sound file has its own url which we'll be able to utilize to link to each button for the soundboard. However, for some of the soundboards we'll make custom sounds by recording and uploading files to use locally. 
