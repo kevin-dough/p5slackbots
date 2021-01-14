@@ -334,7 +334,7 @@ label:before{
             left: 1px;
             top: 1px;
             border-radius: 50%;
-            background: #000;
+            background: #292929;
             cursor: pointer;
             transition: 0.4s;
         }
