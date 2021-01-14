@@ -26,7 +26,7 @@
 
 <body>
 <!-- This is the stuff that makes the navigation bar -->
-<nav class="navbar navbar-expand-md navbar-light" style="position:fixed;background-color: #f6f6f6;min-width:100%">
+<nav class="navbar navbar-expand-md navbar-light" style="position:fixed;background-color: #f6f6f6;min-width:100%" id="dark-nav">
     <div class="mx-auto order-0" style="padding-top:5px">
         <a class="navbar-brand mx-auto navbarTitle py-0" href="home">
             <img style="margin-right:10px" src="/static/images/slackboard.png" width="40" height="40" class="d-inline-block align-top" alt="">
@@ -50,6 +50,24 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 </nav>
+
+<header>
+    <label id="dark-change"></label>
+</header>
+
+
+<script>
+        var content = document.getElementsByTagName('body')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function(){
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+        })
+    </script>
+
+
+
+
 
 <div style="padding-top:5%">
 

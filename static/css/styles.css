@@ -349,3 +349,9 @@ body.night{
             color: #fff;
             transition: 0.4s;
         }
+
+nav.night {
+    background: #202020;
+    color: fff;
+    transition: 0.4s;
+}
