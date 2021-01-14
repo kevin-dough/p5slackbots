@@ -314,3 +314,38 @@ a:hover {
    color:white;
 }
 */
+
+label {
+    position: absolute;
+    width:45px;
+    height:22px;
+    right:20px;
+    top:100px;
+    border:2px solid;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+label:before{
+            position: absolute;
+            content: '';
+            width:16px;
+            height: 16px;
+            left: 1px;
+            top: 1px;
+            border-radius: 50%;
+            background: #000;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+
+label.active:before{
+            left: 24px;
+            background: #fff;
+        }
+
+body.night{
+            background: #292929;
+            color: #fff;
+            transition: 0.4s;
+        }
