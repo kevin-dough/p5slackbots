@@ -12,6 +12,18 @@
     color: #9b9b9b;
 }
 
+.footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #f6f6f6;
+    height:40px;
+    color: #9b9b9b;
+    font-family:Open Sans;
+    font-size:25px;
+    padding:5px 0px 40px;
+}
+
 .tutorialTitle {
     font-family:Open Sans;
     text-align:center;
