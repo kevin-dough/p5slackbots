@@ -17,20 +17,26 @@ These soundboards aren't the typical click on the screen to make a noise, but th
 - Abhijay: Light/Dark Switch Functionality
 
 ### Week of 1/11 Writeup
-- Kevin:
+#### Kevin:
+
 Scrum Master Score: 20/20
+
 Self-Reflection: 
 This week I finished both of my goals, which were to create selection menu to switch between soundboards and a footer, where the dark/light mode switch would be. I was able to work with Abhijay to create what we have so far with the dark/light mode switch. The selection menu is not functional yet, but next week I will create soundboard layouts and then use POST to switch between them. I did a bit of JavaScript and got a bit more comfortable with it when doing the light/dark mode switch.
 
-- Abhijay:
+#### Abhijay:
+
 Scrum Master Score: 20/20
+
 Scrum Master Note: Abhijay stepped up his animation work by using more JavaScript along with his CSS code.
 
 Self-Reflection: 
 Moving into JavaScript is a little harder for me, so I am trying to use different websites to try and learn all those things. I was able to use some JavaScript to make the light mode to night mode switch on every page, which is a pretty good accomplishment. I still need to learn how to apply it to the navigation bar, which I will complete next week. I need to get better at JavaScript to finish this part and also make all the nice animations.
 
-- Kian:
+#### Kian:
+
 Scrum Master Score: 19/20
+
 Scrum Master Note: Kian put a lot of effort into putting together our database but was unable to produce have his work shown in our repository because of issues with the virtual machine. 
 
 Self-Reflection: 
