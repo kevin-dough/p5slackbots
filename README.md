@@ -16,6 +16,27 @@ These soundboards aren't the typical click on the screen to make a noise, but th
 - Kevin: Soundboard Selection Menu and Basic Layout + Footer w/ Light/Dark Switch
 - Abhijay: Light/Dark Switch Functionality
 
+### Week of 1/11 Writeup
+- Kevin:
+Scrum Master Score: 20/20
+Self-Reflection: 
+This week I finished both of my goals, which were to create selection menu to switch between soundboards and a footer, where the dark/light mode switch would be. I was able to work with Abhijay to create what we have so far with the dark/light mode switch. The selection menu is not functional yet, but next week I will create soundboard layouts and then use POST to switch between them. I did a bit of JavaScript and got a bit more comfortable with it when doing the light/dark mode switch.
+
+- Abhijay:
+Scrum Master Score: 20/20
+Scrum Master Note: Abhijay stepped up his animation work by using more JavaScript along with his CSS code.
+
+Self-Reflection: 
+Moving into JavaScript is a little harder for me, so I am trying to use different websites to try and learn all those things. I was able to use some JavaScript to make the light mode to night mode switch on every page, which is a pretty good accomplishment. I still need to learn how to apply it to the navigation bar, which I will complete next week. I need to get better at JavaScript to finish this part and also make all the nice animations.
+
+- Kian:
+Scrum Master Score: 19/20
+Scrum Master Note: Kian put a lot of effort into putting together our database but was unable to produce have his work shown in our repository because of issues with the virtual machine. 
+
+Self-Reflection: 
+This week I unfortunately wasn't able to finish my goal of completely integrating the database into the website because it was actually a lot more complicated than I thought. I don't have a Pi, which makes it pretty difficult to do, and I also had a lot of problems actually testing a local database with a virtual machine. Next week, I'll be able to integrate the database and get it functioning as well as get the API to retrieve the data from the online sound libraries.
+
+
 ### Resources
 For each sound on the sound boards, we will pull data from public sound libraries online, for example https://freesound.org/, https://www.epidemicsound.com/sound-effects/, and https://www.zapsplat.com/. Each sound file has its own url which we'll be able to utilize to link to each button for the soundboard. However, for some of the soundboards we'll make custom sounds by recording and uploading files to use locally. 
 
