@@ -2,14 +2,14 @@
     font-family:Open Sans;
     font-size:1.5em;
     margin-top:5px;
-    color: #9b9b9b;
+
 }
 
 .navbarLink {
     font-family:Open Sans;
     font-size:1.5em;
     margin-top:10px;
-    color: #9b9b9b;
+
 }
 
 .footer {
@@ -326,7 +326,7 @@ a:hover {
    color:white;
 }
 */
-
+/*
 label {
     position: absolute;
     width:45px;
@@ -355,15 +355,23 @@ label.active:before{
             left: 24px;
             background: #fff;
         }
-
+*/
+body{
+    transition:0.4s
+}
 body.night{
-            background: #292929;
-            color: #fff;
-            transition: 0.4s;
-        }
+    background: #292929;
+    color: #fff;
+    transition: 0.4s;
+}
 
+nav {
+    background-color: #f6f6f6;
+    color: #9b9b9b;
+    transition: 0.4s;
+}
 nav.night {
-    background: #202020;
-    color: fff;
+    background-color: #202020;
+    color: #fff;
     transition: 0.4s;
 }

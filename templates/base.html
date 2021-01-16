@@ -26,7 +26,7 @@
 
 <body>
 <!-- This is the stuff that makes the navigation bar -->
-<nav class="navbar navbar-expand-md navbar-light" style="position:fixed;background-color: #f6f6f6;min-width:100%" id="dark-nav">
+<nav class="nav navbar navbar-expand-md navbar-light" style="position:fixed;min-width:100%" id="navB">
     <div class="mx-auto order-0" style="padding-top:5px">
         <a class="navbar-brand mx-auto navbarTitle py-0" href="home">
             <img style="margin-right:10px" src="/static/images/slackboard.png" width="40" height="40" class="d-inline-block align-top" alt="">
@@ -36,13 +36,13 @@
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" >
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link navbarLink py-0" style="color: #9b9b9b;" href="home">soundboard</a>
+                <a class="nav-link navbarLink py-0" href="home">soundboard</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navbarLink py-0" style="color: #9b9b9b;" href="support">support us</a>
+                <a class="nav-link navbarLink py-0" href="support">support us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navbarLink py-0" style="color: #9b9b9b;" href="about">about us</a>
+                <a class="nav-link navbarLink py-0" href="about">about us</a>
             </li>
         </ul>
     </div>
@@ -50,23 +50,6 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 </nav>
-
-<header>
-    <label id="dark-change"></label>
-</header>
-
-
-<script>
-        var content = document.getElementsByTagName('body')[0];
-        var darkMode = document.getElementById('dark-change');
-        darkMode.addEventListener('click', function(){
-            darkMode.classList.toggle('active');
-            content.classList.toggle('night');
-        })
-    </script>
-
-
-
 
 
 <div style="padding-top:5%">
@@ -87,7 +70,7 @@
 
 <div class="footer">
     <center>
-    <a><i class="fas fa-sun"></i></a>
+    <a id="dark-change"><i id="changeicon" class="fas fa-sun"></i></a>
     </center>
 </div>
 
@@ -98,6 +81,20 @@
 <!--
 <div id="buttons"></div>
 -->
+
+<script>
+        var body = document.getElementsByTagName('body')[0];
+        var navbar = document.getElementsById('navB')[0];
+        var darkMode = document.getElementById('dark-change');
+        var changeicon = document.getElementById('changeicon');
+        darkMode.addEventListener('click', function(){
+            navbar.classList.toggle('night');
+            body.classList.toggle('night');
+            $('#changeicon').toggleClass('fas fa-sun').toggleClass('fas fa-moon');
+
+        })
+    </script>
+
 <script src="/static/script.js"></script>
 
 
