@@ -15,4 +15,17 @@
     </center>
 </div>
 
+{% for data in blockdatalist: %}
+{% set image = data["image"] %}
+{% set sound = data["sound"] %}
+
+<div style="width:40%;">
+    <center>
+        <div class="row justify-content-center">
+            <div class="tutorialKey"><img class="key" src="{{image}}" onclick="playAudio('{{sound}}')"></div>
+        </div>
+    </center>
+</div>
+{% endfor %}
+
 {% endblock %}

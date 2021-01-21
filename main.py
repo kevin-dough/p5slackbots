@@ -18,7 +18,7 @@ def soundboards():
 
 @app.route("/electronic")
 def electronic():
-    return render_template("soundboard1.html")
+    return render_template("soundboard1.html", blockdatalist=aboutdata.blockdata())
 
 @app.route("/support")
 def support():
