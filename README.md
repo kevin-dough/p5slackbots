@@ -1,6 +1,6 @@
 # slackboard
 #### Created by the P5 Slackbots -  Kevin Do, Abhijay Deevi, and Kian Kishimoto
-project still in beta development
+project still in beta development, test
 
 
 ### Description:
