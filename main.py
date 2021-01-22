@@ -23,18 +23,14 @@ def shopowner():
     form = ItemForm()
     "Validate the forms"
 
-x = "this is a sample type"
-y = "this is the sample name"
-z = "this is the sample price"
-aa = "this is the sample image"
+    if form.validate_on_submit():  # adding in all
+        new_item = items(type=form.type.data, name=form.name.data, price=form.price.data, image = form.image.data)
+        db.session.add(new_item)
+        db.session.commit()
+        user_dict = {'id': new_item.id, 'name': new_item.name, 'type': new_item.type, 'price': new_item.price}
+        records.append(user_dict)
+        return render_template("database.html", form=form, table=records)
 
-def shopowner():
-    new_item = items(type=x, name=y, price=z, image=aa)
-    db.session.add(new_item)
-    db.session.commit()
-    user_dict = {'id': new_item.id, 'name': new_item.name, 'type': new_item.type, 'price': new_item.price}
-    records.append(user_dict)
-    return render_template("database.html", table=records)
 
 def list_map():  # mapping the front end to the backend, put in the function so we don't have to copy and paste this all the time
     item = items.query.all()
