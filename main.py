@@ -20,7 +20,7 @@ def init(self, id, name, type, price, image):
     self.price = price
 
 db.create_all()
-
+"""
 @app.route("/database")
 def shopowner():
     form = ItemForm()
@@ -33,6 +33,30 @@ def shopowner():
         user_dict = {'id': new_item.id, 'name': new_item.name, 'type': new_item.type, 'price': new_item.price}
         records.append(user_dict)
         return render_template("database.html", form=form, table=records)
+"""
+
+records = []#int the list
+
+@app.route("/database",methods=['GET','POST'])
+def shopowner():
+    #form = ItemForm()#collecting all information from form
+    "Validate the forms"
+    #collecitng ingormation from the form
+    if request.method == 'POST':#forms will always post
+        name = int(form['name'])
+        password = int(form['password'])
+        gender = int(form['gender'])
+        email = int(form['email'])
+        phonenumber = int(form['phonenumber'])
+
+        new_item = items(name=name, password=password,gender=gender, email = email, phonenumber = phonenumber )
+        db.session.add(new_item) #penciing into db
+        db.session.commit()#commitng to data
+
+        user_dict = {'name': name, 'password': password, 'gender': gender, 'email': email, 'phonenumber': phonenumber}
+
+        records.append(user_dict)
+        return render_template("database.html", table=records)
 
 
 def list_map():  # mapping the front end to the backend, put in the function so we don't have to copy and paste this all the time
