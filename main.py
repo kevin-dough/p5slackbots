@@ -18,7 +18,10 @@ def init(self, id, name, type, price, image):
     self.id = id
     self.type = type
     self.price = price
+
 db.create_all()
+
+@app.route("/database")
 def shopowner():
     form = ItemForm()
     "Validate the forms"
@@ -59,13 +62,13 @@ def electronic():
 def support():
     return render_template("support.html")
 
-@app.route("/database")
+"""@app.route("/database")
 def database():
-    return render_template("database.html")
+    return render_template("database.html")"""
 
 @app.route("/about")
 def about():
     return render_template("about.html", groupdatalist=aboutdata.groupdata())
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='127.0.0.1')
