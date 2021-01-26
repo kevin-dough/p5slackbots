@@ -2,6 +2,31 @@ from flask import Flask, redirect, url_for, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 import aboutdata
 
+import requests
+
+data = requests.get("https://api.hypixel.net/player?key=b3c1bb6d-47ec-4134-bb7c-7da1cebd54f6&name=CrazyUdon").json()
+
+skywarsWins = data["player"]["stats"]["SkyWars"]["coins"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
@@ -77,6 +102,10 @@ def home():
 @app.route("/soundboards")
 def soundboards():
     return render_template("selector.html")
+
+@app.route("/hypixelapi")
+def hypixelapi():
+    return render_template("hypixelapi.html")
 
 @app.route("/electronic")
 def electronic():
