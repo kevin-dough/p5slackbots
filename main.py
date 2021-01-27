@@ -43,11 +43,12 @@ def shopowner():
     "Validate the forms"
     #collecitng ingormation from the form
     if request.method == 'POST':#forms will always post
-        name = int(form['name'])
-        password = int(form['password'])
-        gender = int(form['gender'])
-        email = int(form['email'])
-        phonenumber = int(form['phonenumber'])
+        form = request.form
+        name = form['name']
+        password = form['password']
+        gender = form['gender']
+        email = form['email']
+        phonenumber = form['phonenumber']
 
         new_item = items(name=name, password=password,gender=gender, email = email, phonenumber = phonenumber )
         db.session.add(new_item) #penciing into db
@@ -93,6 +94,10 @@ def database():
 @app.route("/about")
 def about():
     return render_template("about.html", groupdatalist=aboutdata.groupdata())
+
+@app.route("/egg")
+def egg():
+    return render_template("easteregg.html")
 
 if __name__ == "__main__":
     app.run(debug=True, host='127.0.0.1')

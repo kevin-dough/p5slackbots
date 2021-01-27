@@ -27,16 +27,16 @@
 <body>
 <!-- This is the stuff that makes the navigation bar -->
 <nav class="nav navbar navbar-expand-md navbar-light" style="position:fixed;min-width:100%" id="navB">
-    <div class="mx-auto order-0" style="padding-top:5px">
+    <div class="mx-auto order-0" style="padding-top:5px;width:30%">
         <a class="navbar-brand mx-auto navbarTitle py-0" href="home">
-            <img style="margin-right:10px" src="/static/images/slackboard.png" width="40" height="40" class="d-inline-block align-top" alt="">
-            <span class="navbarTitle">slackboard</span>
+            <img id="thing1" style="margin-right:10px;z-index:2;" src="/static/images/slackboard.png" width="40" height="40" class="d-inline-block align-top" alt="">
+            <span style="color:#9b9b9b;" class="navbarTitle">slackboard</span>
         </a>
     </div>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" >
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link navbarLink py-0" href="home">soundboard</a>
+                <a id="home" class="nav-link navbarLink py-0" href="home">soundboard</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link navbarLink py-0" href="support">support us</a>
@@ -75,9 +75,16 @@
 {% block about %}
 {% endblock %}
 
-<div class="footer">
+{% block egg %}
+{% endblock %}
+
+<div style="min-width:100%" class="footer row justify-content-center">
     <center>
-    <a id="dark-change"><i id="changeicon" class="fas fa-sun"></i></a>
+
+        <div style="width:40%">
+            <a id="dark-change"><i id="changeicon" class="fas fa-sun"></i></a>
+        </div>
+
     </center>
 </div>
 
@@ -95,7 +102,6 @@
         var darkMode = document.getElementById('dark-change');
         var changeicon = document.getElementById('changeicon');
         darkMode.addEventListener('click', function(){
-            navbar.classList.toggle('night');
             body.classList.toggle('night');
             $('#changeicon').toggleClass('fas fa-sun').toggleClass('fas fa-moon');
 
