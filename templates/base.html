@@ -12,6 +12,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="static/images/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="static/images/icons/favicon-16x16.png">
     <script src="https://kit.fontawesome.com/a8bf0a2920.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
     <meta charset="utf-8">
     <title>SLACKBOARD</title>
@@ -27,16 +28,16 @@
 <body>
 <!-- This is the stuff that makes the navigation bar -->
 <nav class="nav navbar navbar-expand-md navbar-light" style="position:fixed;min-width:100%" id="navB">
-    <div class="mx-auto order-0" style="padding-top:5px;width:30%">
+    <div class="mx-auto order-0" style="padding-top:5px">
         <a class="navbar-brand mx-auto navbarTitle py-0" href="home">
-            <img id="thing1" style="margin-right:10px;z-index:2;" src="/static/images/slackboard.png" width="40" height="40" class="d-inline-block align-top" alt="">
-            <span style="color:#9b9b9b;" class="navbarTitle">slackboard</span>
+            <img style="margin-right:10px" src="/static/images/slackboard.png" width="40" height="40" class="d-inline-block align-top" alt="">
+            <span class="navbarTitle">slackboard</span>
         </a>
     </div>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" >
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a id="home" class="nav-link navbarLink py-0" href="home">soundboard</a>
+                <a class="nav-link navbarLink py-0" href="home">soundboard</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link navbarLink py-0" href="support">support us</a>
@@ -46,6 +47,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link navbarLink py-0" href="database">database</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbarLink py-0" href="hypixelapi">hypixelapi</a>
             </li>
         </ul>
     </div>
@@ -75,16 +79,12 @@
 {% block about %}
 {% endblock %}
 
-{% block egg %}
+{% block hypixelapi %}
 {% endblock %}
 
-<div style="min-width:100%" class="footer row justify-content-center">
+<div class="footer">
     <center>
-
-        <div style="width:40%">
-            <a id="dark-change"><i id="changeicon" class="fas fa-sun"></i></a>
-        </div>
-
+    <a id="dark-change"><i id="changeicon" class="fas fa-sun"></i></a>
     </center>
 </div>
 
@@ -102,6 +102,7 @@
         var darkMode = document.getElementById('dark-change');
         var changeicon = document.getElementById('changeicon');
         darkMode.addEventListener('click', function(){
+            navbar.classList.toggle('night');
             body.classList.toggle('night');
             $('#changeicon').toggleClass('fas fa-sun').toggleClass('fas fa-moon');
 

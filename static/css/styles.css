@@ -89,12 +89,6 @@ a.letsGoBtn:hover, a.letsGoBtn:link {
 
 .key {
     transition: transform 50ms linear;
-    /*padding:30px;
-    font-family:Open Sans;
-    color: white;
-    width:100px;
-    height:100px;
-    margin:10px;*/
 }
 
 img.key:active {
