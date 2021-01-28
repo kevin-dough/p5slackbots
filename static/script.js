@@ -52,7 +52,9 @@ img = document.getElementById("blueKey");
 */
 
 
-let response = fetch("https://api.hypixel.net/player?key=b3c1bb6d-47ec-4134-bb7c-7da1cebd54f6&name=CrazyUdon", ["player"]["stats"]["SkyWars"]["coins"])
+let response = fetch("https://api.hypixel.net/player?key=b3c1bb6d-47ec-4134-bb7c-7da1cebd54f6&name=CrazyUdon")
+print response["player"]["stats"]["SkyWars"]["coins"]
+
 .then(res => res.json())
 .then(data => console.log(data))
 

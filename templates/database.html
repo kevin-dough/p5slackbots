@@ -1,76 +1,23 @@
 {% extends "base.html" %}
 
 {% block database %}
-
-<div class="jumbotron jumbotron-fluid" style="height: 50%; ">
-
-    <div class="row justify-content-center">
-        <div class="col-10" style="text-align: center;">
-            <h1>Sample Table</h1>
-        </div>
-    </div>
-
-    <form>
-        <table>
-            <tr>
-                <td>Name :</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>Password :</td>
-                <td><input type="password"></td>
-            </tr>
-            <tr>
-                <td>Gender :</td>
-                <td>
-                    <input type="radio" name="Gender"> Male
-                    <input type="radio" name="Gender"> Female
-                </td>
-            </tr>
-            <tr>
-                <td>Email :</td>
-                <td><input type="email"></td>
-            </tr>
-            <tr>
-                <td>Phone no :</td>
-                <td>
-                    <select>
-                        <option>977</option>
-                        <option>978</option>
-                        <option>979</option>
-                        <option>973</option>
-                        <option>972</option>
-                        <option>974</option>
-                    </select>
-                    <input type="phone">
-                </td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="Submit"></td>
-            </tr>
-        </table>
-    </form>
-
-
+</div>
     <!-- Table block is dependent on table variable and dictionary setup -->
     <table>
         <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Type</th>
-            <th>Price</th>
-            <th></th><!-- this is the column with the delete button icons -->
+            <th>Username</th>
+            <th>BedWars Level</th>
+            <th>SkyWars Wins</th>
+            <th>BedWars Loot Boxes</th>
         </tr>
         <!-- Loop through rows in table -->
-        {% for row in table %}
+        {% for user in users %}
         <!-- build elements in table -->
         <tr>
-            <th>{{row['id']}}</th>
-            <th>{{ row['name'] }}</th>
-            <th>{{ row['type'] }}</th>
-            <th>{{ row['price'] }}</th>
-            <th>{{ row['image']}}</th>
-            <th><form action={{url_for('.delete')}} method="post"><input type="number" id="userid" name="item_id" value={{row['id']}}><input type="submit" value="Delete"></form></th>
+            <th>{{ user.username }}</th>
+            <th>{{ user.bedwarslevel }}</th>
+            <th>{{ user.skywarswins }}</th>
+            <th>{{ user.bedwarslootbox }}</th>
         </tr>
         {% endfor %}
     </table>
