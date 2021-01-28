@@ -12,6 +12,14 @@
 
 }
 
+a.eggButton:link, a.eggButton:visited {
+    color: #9b9b9b;
+}
+
+a.eggButton:hover {
+    color: #3d0e3d;
+}
+
 .footer {
     position:fixed;
     bottom:0;

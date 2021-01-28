@@ -1,12 +1,8 @@
 from flask import Flask, redirect, url_for, render_template, request
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import create_engine
-from sqlalchemy.orm import Session
-
-
 import aboutdata
-import requests
 
+import requests
 
 data = requests.get("https://api.hypixel.net/player?key=b3c1bb6d-47ec-4134-bb7c-7da1cebd54f6&name=CrazyUdon").json()
 data1 = requests.get("https://api.hypixel.net/player?key=ef3afdee-e7d1-4e5c-a711-b96032716a60&name=sea7wa").json()
@@ -74,6 +70,10 @@ def database():
 @app.route("/about")
 def about():
     return render_template("about.html", groupdatalist=aboutdata.groupdata())
+
+@app.route("/egg")
+def egg():
+    return render_template("easteregg.html")
 
 if __name__ == "__main__":
     db.create_all()
