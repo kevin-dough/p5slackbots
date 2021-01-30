@@ -16,6 +16,8 @@ You gave up already? Aww, c'mon! At least try to find the easter egg without com
 I'm only going to give you the link. If you really want to find out how to get to the page, you're gonna have to work for it.
 [Easter Egg](http://slackboard.cf/egg)
 
+#### [Week 7 Tickets](https://github.com/kevin-dough/p5slackbots/projects/1#column-11996245)
+
 ### Week of 1/11 Goals
 - Kian: Database Creation and Implementation
 - Kevin: Soundboard Selection Menu and Basic Layout + Footer w/ Light/Dark Switch
