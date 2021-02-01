@@ -54,6 +54,10 @@ def soundboards():
 def login():
     return render_template("login.html")
 
+@app.route("/signup")
+def signup():
+    return render_template("signup.html")
+
 @app.route("/electronic")
 def electronic():
     return render_template("soundboard1.html", blockdatalist=aboutdata.blockdata())

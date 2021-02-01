@@ -1,7 +1,15 @@
 {% extends "base.html" %}
 
 {% block login %}
-
+<div class="row justify-content-center">
+    <form id="form" method="post">
+        <h1 style="margin-bottom:10px" class="tutorialTitle">log in</h1>
+        <p><input size="40" type="text" name="firstname" placeholder="username" data-val-required="Username is required." required></p>
+        <p><input size="40" type="password" name="pasword" placeholder="password" data-val-required="Street Address is required." required></p>
+        <p style="text-align:center"><input type="submit" value="submit"></p>
+        <p style="text-align:center">new to slackboard?<a style="padding-left:5px" href="signup">sign up</a></p>
+    </form>
+</div>
 
 
 {% endblock %}
