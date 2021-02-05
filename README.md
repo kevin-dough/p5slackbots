@@ -11,6 +11,13 @@ Users will also be able to record and upload their recordings to our public gall
 
 These soundboards aren't the typical click on the screen to make a noise, but they are interactive. From button animations and being able to play sounds with the click of the key, you will be able to produce your own custom beats at ease.
 
+### Easter Egg!
+You gave up already? Aww, c'mon! At least try to find the easter egg without coming here for the answer. Fine, I guess I have to give it to you.
+I'm only going to give you the link. If you really want to find out how to get to the page, you're gonna have to work for it.
+[Easter Egg](http://slackboard.cf/egg)
+
+#### [Week 7 Tickets](https://github.com/kevin-dough/p5slackbots/projects/1#column-11996245)
+
 ### Week of 1/11 Goals
 - Kian: Database Creation and Implementation
 - Kevin: Soundboard Selection Menu and Basic Layout + Footer w/ Light/Dark Switch

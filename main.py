@@ -83,9 +83,13 @@ def home():
 def soundboards():
     return render_template("selector.html")
 
-@app.route("/hypixelapi")
-def hypixelapi():
-    return render_template("hypixelapi.html")
+@app.route("/login")
+def login():
+    return render_template("login.html")
+
+@app.route("/signup")
+def signup():
+    return render_template("signup.html")
 
 @app.route("/electronic")
 def electronic():
