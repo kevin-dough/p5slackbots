@@ -91,15 +91,10 @@ def electronic():
 def support():
     return render_template("support.html")
 
-@app.route("/demorestricted")
+@app.route("/profile")
 @login_required
-def demorestricted():
-    return render_template("demorestricted.html")
-
-@app.route("/database")
-def database():
-
-    return render_template("database.html", users=Users.query.all())
+def profile():
+    return render_template("profile.html")
 
 @app.route("/about")
 def about():
@@ -132,7 +127,7 @@ def signup():
 
 @app.route("/egg")
 def egg():
-    return render_template("easteregg.html")
+    return render_template("easteregg.html", users=Users.query.all())
 
 if __name__ == "__main__":
     db.create_all()

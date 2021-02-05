@@ -48,7 +48,30 @@
     </div>
 </div>
 
-
+<div class="row justify-content-center">
+    <div style="padding-top:5%;width:80%">
+        <p class="tutorialTitle">api database table</p>
+        <!-- Table block is dependent on table variable and dictionary setup -->
+        <table>
+            <tr>
+                <th style="min-width:130px">Username</th>
+                <th style="min-width:130px">BedWars Level</th>
+                <th style="min-width:130px">SkyWars Wins</th>
+                <th style="min-width:130px">BedWars Loot Boxes</th>
+            </tr>
+            <!-- Loop through rows in table -->
+            {% for user in users %}
+            <!-- build elements in table -->
+            <tr>
+                <th>{{ user.username }}</th>
+                <th>{{ user.bedwarslevel }}</th>
+                <th>{{ user.skywarswins }}</th>
+                <th>{{ user.bedwarslootbox }}</th>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
 
 <div style="padding-top:5%"></div>
 <script>
