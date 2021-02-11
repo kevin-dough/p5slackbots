@@ -30,19 +30,19 @@ print()
 
 
 # This code takes that list we created before and converts it back to a dictionary
-# Here, we are introducing a new variable called dict_family, and we are creating a dictionary with it
+# Here, we are introducing a new variable called 'family', and we are creating a dictionary with it
 # In the dictionary, we are putting our list that we created before in line 14
-dict_family = {'people': list_of_family}
+family = {'people': list_of_family}
 # Now we have a basic print statement that just says "dictionary of family"
-print("Dictionary of family")
+print("Dictionary of my family")
 # This peice of code once again just prints the type of the variable. In this case, it is a dictionary, so it should output "class: dictionary"
-print(type(dict_family))
+print(type(family))
 # This prints out the list_of_family list that was stored into the dict_family variable
-print(dict_family)
+print(family)
 # Here we are creating a new variable, "list_of_family2" and we are taking the information from the dict_family variable
-list_of_family2 = dict_family['people']
+list_of_family2 = family['people']
 # Now, we create another for loop and basically do exactly what was done in line 26.
-for person in list_of_people2:
+for person in list_of_family2:
     print(person['name'] + ", " + str(person['age']) + ", " + person['birthplace'] + ", " + person['city'])
 print()
 
@@ -59,14 +59,15 @@ print(json_family)
 # The char here is stating that after every character, we are putting in a plus sign.
 # This repeats throughout each piece of the list and adds a plus after every single character
 for char in json_family:
-    print(char, end = "+")
+    print(char, end = "~")
+print()
 print()
 
 
 # Here we are once again turning our dictionary into a JSON using the json.dumps command
 json_family2 = json.dumps(list_of_family)
 # This piece of code is just printing the statement "JSON People #2"
-print("JSON People #2")
+print("JSON Family #2")
 # This is just printing out the type of that json_family2 variable
 print(type(json_family2))
 # This is printing out all the contents of the json_family2 variable
