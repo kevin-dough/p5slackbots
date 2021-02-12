@@ -87,10 +87,6 @@ def soundboards():
 def electronic():
     return render_template("soundboard1.html", blockdatalist=aboutdata.blockdata())
 
-@app.route("/support")
-def support():
-    return render_template("support.html")
-
 @app.route("/profile")
 @login_required
 def profile():
