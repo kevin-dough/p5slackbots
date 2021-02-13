@@ -16,7 +16,7 @@ def abhijay():
     nickname = "sir animate"
     social1 = "https://github.com/Dubshott"
     social2 = "https://www.instagram.com/dv_a_bee/"
-    summary = "Abhijay is the seckseeest and hawtest person in the world."
+    summary = "Abhijay is the a really awesome person and he likes to play the piano and video games."
     info = {"name": name, "color": color, "firstname": firstname, "nickname": nickname, "social1": social1, "social2": social2, "summary": summary}
     return info
 
