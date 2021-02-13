@@ -2,13 +2,13 @@
 
 {% block selector %}
 <div style="margin-top:50px">
-<form name="form" method="post" target="self">
+<form name="form" method="post" target="_blank">
 <center><div style="width:20%" class="d-flex justify-content-around">
     <div style="width:60%">
-        <select class="selectForm form-control" id="page" name="page">
-            <option value="electronic">memeboard</option>
-            <option value="electronic">accoustic</option>
-            <option value="electronic">blah</option>
+        <select class="selectForm form-control" id="boardselect" name="boardselect">
+            <option value="memeboard">memeboard</option>
+            <option value="memeboard">accoustic</option>
+            <option value="memeboard">blah</option>
         </select>
     </div>
     <div style="width:10%">
@@ -17,5 +17,8 @@
 </div></center>
 </form>
 </div>
+
+{% block memeboard %}
+{% endblock %}
 
 {% endblock %}

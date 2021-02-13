@@ -79,8 +79,12 @@ def load_user(user_id):
 def home():
     return render_template("index.html")
 
-@app.route("/soundboards")
+@app.route("/soundboards", methods=['GET', 'POST'])
 def soundboards():
+    if request.method == 'POST':
+        form = request.form
+        selection = form['boardselect']
+        return redirect(url_for(selection))
     return render_template("selector.html")
 
 @app.route("/memeboard")
