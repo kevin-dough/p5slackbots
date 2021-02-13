@@ -83,9 +83,9 @@ def home():
 def soundboards():
     return render_template("selector.html")
 
-@app.route("/electronic")
-def electronic():
-    return render_template("soundboard1.html", blockdatalist=aboutdata.blockdata())
+@app.route("/memeboard")
+def memeboard():
+    return render_template("memeboard.html")
 
 @app.route("/profile")
 @login_required
@@ -123,7 +123,15 @@ def signup():
 
 @app.route("/egg")
 def egg():
-    return render_template("easteregg.html", users=Users.query.all())
+    return render_template("easteregg.html")
+
+@app.route("/crossover")
+def crossover():
+    return render_template("crossover.html")
+
+@app.route("/apidatabase")
+def tickets():
+    return render_template("apidatabase.html", users=Users.query.all())
 
 if __name__ == "__main__":
     db.create_all()
