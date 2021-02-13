@@ -87,8 +87,12 @@ def soundboards():
         return redirect(url_for(selection))
     return render_template("selector.html")
 
-@app.route("/memeboard")
+@app.route("/memeboard", methods=['GET', 'POST'])
 def memeboard():
+    if request.method == 'POST':
+        form = request.form
+        selection = form['boardselect']
+        return redirect(url_for(selection))
     return render_template("memeboard.html")
 
 @app.route("/profile")
