@@ -1,6 +1,6 @@
 from flask import Flask, redirect, url_for, render_template, request
 from flask_sqlalchemy import SQLAlchemy
-import aboutdata, memeboarddata
+import aboutdata, tutorialdata, memeboarddata
 from flask_login import (current_user, LoginManager, login_user, logout_user, login_required, UserMixin)
 import requests
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -77,7 +77,7 @@ def load_user(user_id):
 @app.route("/home")
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("index.html", trow1=tutorialdata.trow1(), trow2=tutorialdata.trow2())
 
 @app.route("/soundboards", methods=['GET', 'POST'])
 def soundboards():

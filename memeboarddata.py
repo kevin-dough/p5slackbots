@@ -75,71 +75,71 @@ def row1():
 
 
 def r2key1():
-    sound = "bruh"
-    name = "bruh"
+    sound = "celebration"
+    name = "celebration"
     key = "q"
     color = "#8dd7b8"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r2key2():
-    sound = "bruh"
-    name = "bruh"
+    sound = "hehe"
+    name = "hehe"
     key = "w"
     color = "#8dd7b8"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r2key3():
-    sound = "bruh"
-    name = "bruh"
+    sound = "heyheyhey"
+    name = "hey x3"
     key = "e"
     color = "#8dd7b8"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r2key4():
-    sound = "bruh"
-    name = "bruh"
+    sound = "idkwhothatis"
+    name = "idk who that is"
     key = "r"
     color = "#8dd7b8"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r2key5():
-    sound = "bruh"
-    name = "bruh"
+    sound = "ok"
+    name = "ok"
     key = "t"
     color = "#8dd7b8"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r2key6():
-    sound = "bruh"
-    name = "bruh"
+    sound = "scrumboard"
+    name = "scrumboard 1"
     key = "y"
     color = "#8dd7b8"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r2key7():
-    sound = "bruh"
-    name = "bruh"
+    sound = "scrumboard2"
+    name = "scrumboard 2"
     key = "u"
     color = "#8dd7b8"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r2key8():
-    sound = "bruh"
-    name = "bruh"
+    sound = "slackup"
+    name = "slack up"
     key = "i"
     color = "#8dd7b8"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r2key9():
-    sound = "bruh"
-    name = "bruh"
+    sound = "so-um"
+    name = "so um..."
     key = "o"
     color = "#8dd7b8"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r2key10():
-    sound = "bruh"
-    name = "bruh"
+    sound = "testpreptues"
+    name = "TPT!"
     key = "p"
     color = "#8dd7b8"
     info = {"sound": sound, "name": name, "key": key, "color": color}
@@ -151,64 +151,64 @@ def row2():
 
 
 def r3key1():
-    sound = "bruh"
-    name = "bruh"
+    sound = "ree"
+    name = "ree"
     key = "a"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key2():
-    sound = "machine"
-    name = "machine"
+    sound = "monkeyscream"
+    name = "monkey scream"
     key = "s"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key3():
-    sound = "beep"
-    name = "discord"
+    sound = "frenchdoc"
+    name = "french doc"
     key = "d"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key4():
-    sound = "meat"
-    name = "meat"
+    sound = "bruh"
+    name = "bruh"
     key = "f"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key5():
-    sound = "hello"
-    name = "hello"
+    sound = "bruh"
+    name = "bruh"
     key = "g"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key6():
-    sound = "play"
-    name = "play"
+    sound = "bruh"
+    name = "bruh"
     key = "h"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key7():
-    sound = "swamp"
-    name = "swamp"
+    sound = "bruh"
+    name = "bruh"
     key = "j"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key8():
-    sound = "food"
-    name = "food"
+    sound = "bruh"
+    name = "bruh"
     key = "k"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key9():
-    sound = "duck"
-    name = "duck"
+    sound = "bruh"
+    name = "bruh"
     key = "l"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
