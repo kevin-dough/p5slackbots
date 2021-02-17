@@ -1,6 +1,6 @@
 from flask import Flask, redirect, url_for, render_template, request
 from flask_sqlalchemy import SQLAlchemy
-import aboutdata
+import aboutdata, memeboarddata
 from flask_login import (current_user, LoginManager, login_user, logout_user, login_required, UserMixin)
 import requests
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -93,7 +93,7 @@ def memeboard():
         form = request.form
         selection = form['boardselect']
         return redirect(url_for(selection))
-    return render_template("memeboard.html")
+    return render_template("memeboard.html", row1=memeboarddata.row1(), row2=memeboarddata.row2(), row3=memeboarddata.row3(), row4=memeboarddata.row4())
 
 @app.route("/profile")
 @login_required
