@@ -10,6 +10,21 @@ Users will also be able to record and upload their recordings to our public gall
 
 These soundboards aren't the typical click on the screen to make a noise, but they are interactive. From button animations and being able to play sounds with the click of the key, you will be able to produce your own custom beats at ease.
 
+### Week of 2/16-18
+#### [Current Assignments](https://github.com/kevin-dough/p5slackbots/projects/1#column-11960379)
+- Kevin: Jinja Loop to print soundboard - Completed // Add new sounds to soundboard - Completed
+    - [Memeboard Data](https://github.com/kevin-dough/p5slackbots/blob/main/memeboarddata.py)
+    - [Memeboard Jinja Loops](https://github.com/kevin-dough/p5slackbots/blob/main/templates/memeboard.html)
+    - [Tutorial Page Jinja Loops](https://github.com/kevin-dough/p5slackbots/blob/2bbac02c2f6281628ace68c401070172ed00e694/templates/index.html#L10-L24)
+- Abhijay: Add more sounds to the soundboard - In Progress
+    - [Sounds Folder](https://github.com/kevin-dough/p5slackbots/tree/main/static/sounds)
+- Kian: Sign Up Feature - In Progress
+    - [Sign Up Page](https://github.com/kevin-dough/p5slackbots/blob/main/templates/signup.html)
+    - [Sign Up Code](https://github.com/kevin-dough/p5slackbots/blob/main/main.py) *update link*
+#### [Future Assignments](https://github.com/kevin-dough/p5slackbots/projects/1#column-11996245)
+- [College Board Project Requirements Plans](https://docs.google.com/document/d/1TvRvscxNA3tDbC-ohQ4H73_G4iKtURiGGdrjs4D2uBY/edit)
+
+
 ### Who am I?
 Click [here](https://github.com/kevin-dough/p5slackbots/blob/795680c0c610b8a48df186b52c80701008b970f1/templates/easteregg.html#L8-L49) to see the code for the "Who am I?" portion of our code!
 
