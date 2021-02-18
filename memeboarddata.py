@@ -220,50 +220,50 @@ def row3():
 
 
 def r4key1():
-    sound = "bruh"
-    name = "bruh"
+    sound = "wow"
+    name = "wow"
     key = "z"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key2():
-    sound = "machine"
-    name = "machine"
+    sound = "oh my god"
+    name = "oh my god"
     key = "x"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key3():
-    sound = "beep"
-    name = "discord"
+    sound = "alia"
+    name = "alia"
     key = "c"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key4():
-    sound = "meat"
-    name = "meat"
+    sound = "okuncle"
+    name = "okuncle"
     key = "v"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key5():
-    sound = "hello"
-    name = "hello"
+    sound = "no"
+    name = "no"
     key = "b"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key6():
-    sound = "play"
-    name = "play"
+    sound = "roast"
+    name = "roast"
     key = "n"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key7():
-    sound = "swamp"
-    name = "swamp"
+    sound = "fbi"
+    name = "fbi"
     key = "m"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
