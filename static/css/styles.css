@@ -401,7 +401,7 @@ nav.night {
     transition: 0.4s;
 }
 
-#game {
+.game {
     width: 500px;
     height: 200px;
     border: 1px solid black;
