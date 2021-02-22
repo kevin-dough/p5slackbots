@@ -137,6 +137,10 @@ def egg():
 def crossover():
     return render_template("crossover.html")
 
+@app.route("/dinosaur")
+def dinosaur():
+    return render_template("dinosaur.html")
+
 @app.route("/apidatabase")
 def tickets():
     return render_template("apidatabase.html", users=Users.query.all())
