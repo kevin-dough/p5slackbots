@@ -6,13 +6,39 @@
 
     <div style="width:40%;">
         <center>
-            <div class="row justify-content-center">
-                <div class="tutorialKey"><img class="key" src="/static/images/bruhtile.png" onclick="playAudio('/static/sounds/bruh.mp3')"></div>
-                <div class="tutorialKey"><img class="key" src="/static/images/colatile.png" onclick="playAudio('/static/sounds/cola.mp3')"></div>
+            <div class="soundboardRow row justify-content-center">
+                {% for data in trow1: %}
+                {% set name = data["name"] %}
+                {% set sound = data["sound"] %}
+                {% set key = data["key"] %}
+                {% set color = data["color"] %}
+
+                <div style="padding-left:10px;">
+                    <div class="tutorialKey key" style="width:175px;height:175px;background-color:{{color}}" onclick="playAudio('/static/sounds/{{sound}}.mp3')">
+                        <div style="padding-top:35%">
+                            <p class="tutorialKeyText">{{name}}</p>
+                            <p class="tutorialKeyText">{{key}}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
-            <div class="row justify-content-center">
-                <div class="tutorialKey"><img class="key" src="/static/images/rickrolltile.png" onclick="playAudio('/static/sounds/rickroll.mp3')"></div>
-                <div class="tutorialKey"><img class="key" src="/static/images/yotile.png" onclick="playAudio('/static/sounds/yo.mp3')"></div>
+            <div class="soundboardRow row justify-content-center">
+                {% for data in trow2: %}
+                {% set name = data["name"] %}
+                {% set sound = data["sound"] %}
+                {% set key = data["key"] %}
+                {% set color = data["color"] %}
+
+                <div style="padding-left:10px;">
+                    <div class="tutorialKey key" style="width:175px;height:175px;background-color:{{color}}" onclick="playAudio('/static/sounds/{{sound}}.mp3')">
+                        <div style="padding-top:35%">
+                            <p class="tutorialKeyText">{{name}}</p>
+                            <p class="tutorialKeyText">{{key}}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </center>
     </div>

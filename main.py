@@ -1,6 +1,6 @@
 from flask import Flask, redirect, url_for, render_template, request, flash
 from flask_sqlalchemy import SQLAlchemy
-import aboutdata
+import aboutdata, tutorialdata, memeboarddata
 from flask_login import (current_user, LoginManager, login_user, logout_user, login_required, UserMixin)
 import requests
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -77,7 +77,7 @@ def load_user(user_id):
 @app.route("/home")
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("index.html", trow1=tutorialdata.trow1(), trow2=tutorialdata.trow2())
 
 @app.route("/soundboards", methods=['GET', 'POST'])
 def soundboards():
@@ -93,7 +93,7 @@ def memeboard():
         form = request.form
         selection = form['boardselect']
         return redirect(url_for(selection))
-    return render_template("memeboard.html")
+    return render_template("memeboard.html", row1=memeboarddata.row1(), row2=memeboarddata.row2(), row3=memeboarddata.row3(), row4=memeboarddata.row4())
 
 @app.route("/profile")
 @login_required
@@ -132,6 +132,10 @@ def egg():
 @app.route("/crossover")
 def crossover():
     return render_template("crossover.html")
+
+@app.route("/dinosaur")
+def dinosaur():
+    return render_template("dinosaur.html")
 
 @app.route("/apidatabase")
 def tickets():
