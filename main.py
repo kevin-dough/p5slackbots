@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for, render_template, request
+from flask import Flask, redirect, url_for, render_template, request, flash
 from flask_sqlalchemy import SQLAlchemy
 import aboutdata
 from flask_login import (current_user, LoginManager, login_user, logout_user, login_required, UserMixin)
@@ -125,10 +125,6 @@ def logout():
     logout_user()
     return render_template('login.html')
 
-@app.route("/signup")
-def signup():
-    return render_template("signup.html")
-
 @app.route("/egg")
 def egg():
     return render_template("easteregg.html")
@@ -140,6 +136,31 @@ def crossover():
 @app.route("/apidatabase")
 def tickets():
     return render_template("apidatabase.html", users=Users.query.all())
+
+@app.route("/signup", methods=['GET', 'POST'])
+def signup():
+    if current_user.is_authenticated:
+        logout_user()
+        return redirect('/')
+
+    if request.form.get("username") != "" and request.form.get("username") is not None:
+        if AuthUser.query.filter_by(name=request.form.get("username")).first() is not None:
+            flash ("Username already in use")
+            print ("Username already in use")
+            return render_template('signup.html')
+
+        if AuthUser.query.filter_by(email=request.form.get("email")).first() is not None:
+            flash ("Email address already in use")
+            print ("Email address already in use")
+            return render_template('signup.html')
+
+        new_user = AuthUser(request.form.get("username"), generate_password_hash(request.form.get("password"), method='sha256'), request.form.get("email"))
+        db.session.add(new_user)
+        db.session.commit()
+        flash ("Sign up successful")
+        print ("Sign up successful")
+        return redirect("/")
+    return render_template('signup.html')
 
 if __name__ == "__main__":
     db.create_all()
