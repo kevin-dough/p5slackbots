@@ -3,14 +3,18 @@
 {% block dinosaur %}
 
 
-<div class="game" onclick="jump()">
-    <div id="character" >
 
+
+<div class="game" onclick="jump()"  onclick="playAudio('/static/sounds/bruh.mp3')">
+
+    <div id="character" >
+        <img src="/static/images/Music.png" alt="Note" width="30px">
     </div>
     <div id="block">
 
     </div>
 </div>
+
 <p>Score: <span id="scoreSpan"></span></p>
 
 <script>

@@ -411,7 +411,7 @@ nav.night {
 #character {
     width: 20px;
     height: 50px;
-    background-color: red;
+    background-color: transparent;
     position: relative;
     top: 150px;
 
