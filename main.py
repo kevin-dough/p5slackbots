@@ -129,9 +129,9 @@ def logout():
 def egg():
     return render_template("easteregg.html")
 
-@app.route("/crossover")
+@app.route("/kevin")
 def crossover():
-    return render_template("crossover.html")
+    return render_template("kevin.html")
 
 @app.route("/dinosaur")
 def dinosaur():
