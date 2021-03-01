@@ -36,14 +36,14 @@ a.eggButton:hover {
     padding:5px 0px 40px;
 }
 
-.tutorialTitle {
+.title {
     font-family:Open Sans;
     text-align:center;
     font-size:4em;
     color: #9b9b9b;
 }
 
-.tutorialText {
+.text {
     font-family:Open Sans;
     text-align:left;
     font-size:1.5em;
@@ -191,6 +191,11 @@ a:hover {
     outline: none;
 }
 
+.profileimg {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
 
 .container {
     position: relative;
