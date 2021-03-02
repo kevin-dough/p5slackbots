@@ -8,9 +8,13 @@
     <p class="text" style="text-align:center">if you see this, it means you are logged in!</p>
     </center>
 </div>
-<div style="padding-top:5%;width:25%;margin:0 auto" class="row justify-content-between">
+<div style="padding-top:5%;width:30%;margin:0 auto" class="row justify-content-between">
     <div>
-        <img class="profileimg" src="static/images/defaultpfp.jpg">
+        <center><img class="profileimg" src="static/images/defaultpfp.jpg"></center>
+        <form id="pfpForm" method="post">
+        <center><p style="margin-top:30px"><input type="file" size="5" name="filename" accept="image/*"></p></center>
+        <center><p><input type="submit"></p></center>
+        </form>
     </div>
     <div>
         <!-- replace things with jinja -->
@@ -35,7 +39,7 @@
 <div id="editFavSoundForms" style="padding-top:2%;display:none">
     <p class="text" style="text-align:center">edit favorite sound</p>
     <form id="editFavSound" method="post">
-        <center><p><input type="file" name="filename" accept="image/*"></p></center>
+        <center><p><input type="file" name="filename" accept="audio/*"></p></center>
         <center><p><input size="30" type="text" name="soundname" placeholder="sound name"></p></center>
         <center><p><input size="30" type="text" name="color" placeholder="hex color"></p></center>
         <center><p><input type="submit"></p></center>
