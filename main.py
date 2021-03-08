@@ -1,6 +1,6 @@
 from flask import Flask, redirect, url_for, render_template, request, flash
 from flask_sqlalchemy import SQLAlchemy
-import aboutdata, tutorialdata, memeboarddata
+import aboutdata, tutorialdata, memeboarddata, beatboarddata
 from flask_login import (current_user, LoginManager, login_user, logout_user, login_required, UserMixin)
 import requests
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -94,6 +94,14 @@ def memeboard():
         selection = form['boardselect']
         return redirect(url_for(selection))
     return render_template("memeboard.html", row1=memeboarddata.row1(), row2=memeboarddata.row2(), row3=memeboarddata.row3(), row4=memeboarddata.row4())
+
+@app.route("/beatboard", methods=['GET', 'POST'])
+def beatboard():
+    if request.method == 'POST':
+        form = request.form
+        selection = form['boardselect']
+        return redirect(url_for(selection))
+    return render_template("beatboard.html", row1=beatboarddata.row1(), row2=beatboarddata.row2(), row3=beatboarddata.row3(), row4=beatboarddata.row4())
 
 @app.route("/profile")
 @login_required
