@@ -179,36 +179,36 @@ def r3key4():
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key5():
-    sound = "none"
-    name = "none"
+    sound = "lofi1"
+    name = "lofi 1"
     key = "g"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key6():
-    sound = "kobe"
-    name = "kobe"
+    sound = "lofi2"
+    name = "lofi 2"
     key = "h"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key7():
-    sound = "bully"
-    name = "bully"
+    sound = "lofi3"
+    name = "lofi 3"
     key = "j"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key8():
-    sound = "hi"
-    name = "hi"
+    sound = "lofi4"
+    name = "lofi 4"
     key = "k"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r3key9():
-    sound = "nope"
-    name = "nope"
+    sound = "lofi5"
+    name = "lofi 5"
     key = "l"
     color = "#f5d58d"
     info = {"sound": sound, "name": name, "key": key, "color": color}
@@ -220,50 +220,50 @@ def row3():
 
 
 def r4key1():
-    sound = "wow"
-    name = "wow"
+    sound = "synth1"
+    name = "synth 1"
     key = "z"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key2():
-    sound = "oh my god"
-    name = "oh my god"
+    sound = "synth2"
+    name = "synth 2"
     key = "x"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key3():
-    sound = "alia"
-    name = "alia"
+    sound = "synth3"
+    name = "synth 3"
     key = "c"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key4():
-    sound = "okuncle"
-    name = "okuncle"
+    sound = "edmchords"
+    name = "edm chords"
     key = "v"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key5():
-    sound = "no"
-    name = "no"
+    sound = "none"
+    name = "none"
     key = "b"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key6():
-    sound = "roast"
-    name = "roast"
+    sound = "none"
+    name = "none"
     key = "n"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
     return info
 def r4key7():
-    sound = "fbi"
-    name = "fbi"
+    sound = "none"
+    name = "none"
     key = "m"
     color = "#ee85a5"
     info = {"sound": sound, "name": name, "key": key, "color": color}
