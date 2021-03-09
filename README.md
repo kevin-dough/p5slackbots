@@ -1,33 +1,35 @@
 # slackboard
 #### Created by the P5 Slackbots -  Kevin Do, Abhijay Deevi, and Kian Kishimoto
-project still in beta development, test
+project still in beta development
 
 ### Description:
 slackboard is a sleek and clean online soundboard which allows you to create that sick beat you've been dreaming about.
-This interactive soundboard allows users to produce their own beats with our sounds or even with their own 
-sounds. Users can create their own soundboards or find custom-made soundboards on our public library, compiled by users from all around the globe. 
-Users will also be able to record and upload their recordings to our public gallery so other users can see their masterpieces.
+This interactive soundboard allows users to produce their own beats with our available library of 70+ sounds! 
 
-These soundboards aren't the typical click on the screen to make a noise, but they are interactive. From button animations and being able to play sounds with the click of the key, you will be able to produce your own custom beats at ease.
+Future Features: Users will also be able to record and upload their recordings to our public gallery so other users can see their masterpieces. Users will also be able to upload their own sounds for their custom-made soundboards.
 
-Runtime Link: http://slackboard.cf/home
+These soundboards aren't the typical click on the screen to make a noise, but they are interactive. From button animations and being able to play sounds with the click of the key (future feature), you will be able to produce your own custom beats at ease.
+
+Runtime Link: http://slackboard.cf/
+
+Commercial: https://youtu.be/zx5zcgnR35g
 
 ### Website Navigation: 
 
-Main Slackboards: 
+Main Slackboards:
 1. As soon as you enter into the soundboard world of slackboard.cf, you will notice a "how to" page. The website gives you some basic instructions on how to use the slackboard. You can test these rules out with the 4 square soundboard on the left of the screen with the sounds, "bruh," "cola," "rickroll," and "yo." Once you are done looking at the rules, press the purple "let's go" button to enter into the main slackboards. 
-2. Once you press that button, you enter a different screen with a small scrollbar at the top. Press that and you will see three options. "memeboard" is a soundboard that allows you to play sounds of different well known memes like the ali-a intro. "beatboard" allows you to play different beats and make a really nice peice. It's like being a DJ and making cool tunes. "pickboard" is under construction at the moment, but it will become something amazing. Once you choose your soundboard, press the music note button that is to the right of the scrollbar. 
-3. Wow! A full soundboard, that corresponds to your keyboard, shows up! Go ahead and use your mouse to press the buttons and listen to the music! Make different stories with the memeboard or making soundtracks with the beatboard. It's all up to you!
+2. Once you press that button, you enter a different screen with a small dropdown menu at the top. Press that and you will see two options. "memeboard" is a soundboard that allows you to play sounds of different well known memes like the ali-a intro. "beatboard" allows you to play different sounds that you would hear on your typical electronic music. Once you choose your soundboard, press the music note button that is to the right of the scrollbar. 
+3. A full soundboard that corresponds to your keyboard shows up! Go ahead and use your mouse to press the buttons and listen to the music! Make different stories with the memeboard or soundtracks with the beatboard. It's all up to you!
 
 Other Features: 
-1. At the top of the page, you will notice a navigation bar. The soundboard button will just redirect you the soundboard page that we talked about earlier. You can follow the steps above to use those soundboards. 
-2. The second option on the navigation bar is the about us page. This talks about the creators of the slackboard. Place your mouse over each person to create a nice animation that slides in information about us and links to our socials. 
+1. At the top of the page, you will notice a navigation bar. The soundboard button will just redirect you the soundboard page that was mentioned earlier. You can follow the steps above to use those soundboards. 
+2. The second option on the navigation bar is the about us page, which displays the creators of the slackboard. Place your mouse over each person to view wmore information about each person.
 3. The next option on the navigation bar is profile. If you already have an account with us, this allows you to login. If you are new, there is a sign up page right below the login page. Press the link that says "sign up." Here you can create a new account (don't actually use your real passwords because this website is not secure). Once you sign up, you can go back to login page and sign in. 
 4. Finally, at the end of the navigation bar is logout button, which just logs you out of your account. 
-5. Secret: There's actually an easter egg in this website. Try to find it! You'll find the creator's linkedin profiles. Also, you can play our music game that is still under construction. It is called musicjump, a game just like the dinosaur game! You have a score and animation all ready to go! Also, you can check out our Hypixel statistics through our API database table. 
+5. Secret: There's actually an easter egg in this website. Try to find it!
 
 ### Technicals
-Abhijay mainly focused on front end (HTML, CSS, javascript, jinja). Kian mainly focused on backend (python, HTML). Kevin mainly focused on deploying (Raspberry Pi, working with Linux terminal). The technicals we incorporated are: setting up a functioning website (Flask), CRUD ([inspiration](http://nighthawkcoders.cf/pythondb/#BE-MODELCRUD)), databases (SQLAlchemy), API, connecting the website to the internet with a public domain ([inspiration](https://github.com/nighthawkcoders/flask-idea-homesite/blob/master/README.md)), user accounts and authentication ([inspiration](https://docs.google.com/document/d/1F6iYBj5xJ8ZWCtkDqlF_-skWM-Xuut-BqT5eRNPhnOE/edit)), and JSON lists and dictionaries ([inspiration](https://www.w3schools.com/python/python_dictionaries.asp)). We set up a functioning website and connected it to the internet with a public [domain](http://slackboard.cf/home) on the Raspberry Pi. We used CRUD in the [signup funcction](https://github.com/kevin-dough/p5slackbots/blob/37bd13d2c72f70d2fa1dfa34f0f2875d7246d0a0/main.py#L152), databases to [hold API data](https://github.com/kevin-dough/p5slackbots/blob/37bd13d2c72f70d2fa1dfa34f0f2875d7246d0a0/main.py#L27) as well as [website users for login/logout functions](https://github.com/kevin-dough/p5slackbots/blob/37bd13d2c72f70d2fa1dfa34f0f2875d7246d0a0/main.py#L49), and we used [JSON lists and dictionaries for the API](https://github.com/kevin-dough/p5slackbots/blob/37bd13d2c72f70d2fa1dfa34f0f2875d7246d0a0/main.py#L8) and for [displaying the content of the Easter Egg page](https://github.com/kevin-dough/p5slackbots/blob/37bd13d2c72f70d2fa1dfa34f0f2875d7246d0a0/aboutdata.py). 
+Abhijay mainly focused on front end animations (CSS and javascript). Kian mainly focused on backend (python, HTML). Kevin mainly focused on frontend and deploying (Raspberry Pi, working with Linux terminal, CSS, HTML, Jinja, and ISP DNS). The technicals we incorporated are: setting up a functioning website (Flask), CRUD ([inspiration](http://nighthawkcoders.cf/pythondb/#BE-MODELCRUD)), databases (SQLAlchemy), API, connecting the website to the internet with a public domain ([inspiration](https://github.com/nighthawkcoders/flask-idea-homesite/blob/master/README.md)), user accounts and authentication ([inspiration](https://docs.google.com/document/d/1F6iYBj5xJ8ZWCtkDqlF_-skWM-Xuut-BqT5eRNPhnOE/edit)), and JSON lists and dictionaries ([inspiration](https://www.w3schools.com/python/python_dictionaries.asp)). We set up a functioning website and connected it to the internet with a public [domain](http://slackboard.cf/home) on the Raspberry Pi. We used CRUD in the [signup funcction](https://github.com/kevin-dough/p5slackbots/blob/37bd13d2c72f70d2fa1dfa34f0f2875d7246d0a0/main.py#L152), databases to [hold API data](https://github.com/kevin-dough/p5slackbots/blob/37bd13d2c72f70d2fa1dfa34f0f2875d7246d0a0/main.py#L27) as well as [website users for login/logout functions](https://github.com/kevin-dough/p5slackbots/blob/37bd13d2c72f70d2fa1dfa34f0f2875d7246d0a0/main.py#L49), and we used [JSON lists and dictionaries for the API](https://github.com/kevin-dough/p5slackbots/blob/37bd13d2c72f70d2fa1dfa34f0f2875d7246d0a0/main.py#L8) and for [displaying the content of the Easter Egg page](https://github.com/kevin-dough/p5slackbots/blob/37bd13d2c72f70d2fa1dfa34f0f2875d7246d0a0/aboutdata.py). We also used Jinja to create templates with the [base header HTML file](https://github.com/kevin-dough/p5slackbots/blob/2956a9366568541b7e7fa9761d11771c9efded2d/templates/base.html#L63-L88) and also for the [dislaying of the soundboards](https://github.com/kevin-dough/p5slackbots/blob/2956a9366568541b7e7fa9761d11771c9efded2d/templates/beatboard.html#L8-L22). For the [selector menu](https://github.com/kevin-dough/p5slackbots/blob/2956a9366568541b7e7fa9761d11771c9efded2d/templates/selector.html#L5-L18), we used [POST](https://github.com/kevin-dough/p5slackbots/blob/2956a9366568541b7e7fa9761d11771c9efded2d/main.py#L98-L104) to take the user input and open up the selected soundboard.
 
 ### Week of 2/16-18
 #### [Current Assignments](https://github.com/kevin-dough/p5slackbots/projects/1#column-11960379)
