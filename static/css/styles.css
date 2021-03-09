@@ -218,7 +218,7 @@ a:hover {
 }
 
 .container .box::before {
-    content: 'DUB';
+    content: 'BIG';
     position: absolute;
     top: 10px;
     left: 0px;
@@ -231,7 +231,7 @@ a:hover {
 }
 
 .container .box::after {
-    content: 'BER';
+    content: 'DUB';
     position: absolute;
     bottom: 20px;
     right: 0px;
