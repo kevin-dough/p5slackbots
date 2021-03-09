@@ -10,6 +10,9 @@ Users will also be able to record and upload their recordings to our public gall
 
 These soundboards aren't the typical click on the screen to make a noise, but they are interactive. From button animations and being able to play sounds with the click of the key, you will be able to produce your own custom beats at ease.
 
+### Technicals
+Abhijay mainly focused on front end (HTML, CSS, javascript, jinja). Kian mainly focused on backend (python, HTML, ). Kevin mainly focused on deploying (Raspberry Pi, working with Linux terminal). The technicals we incorporated are: setting up a functioning website (Flask), CRUD, databases (SQLAlchemy), API, connecting the website to the internet with a public domain, user accounts and authentication, and JSON lists and dictionaries. We set up a functioning website and connected it to the internet with a public domain on the Raspberry Pi. We used CRUD in the signup funcction, databases to hold API data as well as website users for login/logout functions, and we used JSON lists and dictionaries for the API and for displaying the content of the Easter Egg page. 
+
 ### Week of 2/16-18
 #### [Current Assignments](https://github.com/kevin-dough/p5slackbots/projects/1#column-11960379)
 - Kevin: Jinja Loop to print soundboard - Completed // Add new sounds to soundboard - Completed
