@@ -102,10 +102,11 @@ Other Features:
      - I can create my own domain using Internet Service Provider DNS records.
 #### Abhijay (Scrumling)
 - role: front end & animations
-     - CSS and JS
+     - HTML, CSS, and JS
 - who am i in computer science?
-     - I am a professional coder that has learned many different languages such as C, Objective-C, Python, HTML, CSS, and JavaScript.
-     - I am working to become a master at each language.
+     - I am a coder that has learned many different languages such as C, Objective-C, Python, HTML, CSS, and JavaScript.
+     - I can create, and have created, basic websites with HTML, CSS, and JS
+     - I am proficient at frontend things and I can make websites have a clean aesthetic
 #### Kian (Scrumling)
 - role: backend & databases
      - HTML and Python
