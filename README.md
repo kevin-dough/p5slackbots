@@ -44,9 +44,18 @@ Other Features:
 
 <img src=https://user-images.githubusercontent.com/54718041/110583546-b1fdbf00-8122-11eb-82da-4e24831c19ce.png height="40%" width="40%">
 
+- hover animations in about page
 
+<img src=https://user-images.githubusercontent.com/54718041/110583474-97c3e100-8122-11eb-94ec-1ac39c5b3eb2.png height="35%" width="35%">
 
+- signup and login pages
 
+<img src=https://user-images.githubusercontent.com/54718041/110583343-66e3ac00-8122-11eb-9531-1fd4e3156749.png height="40%" width="40%">
+<img src=https://user-images.githubusercontent.com/54718041/110583394-7bc03f80-8122-11eb-8a7c-0169139a616c.png height="40%" width="40%">
+
+- mock profile page
+
+<img src=https://user-images.githubusercontent.com/54718041/110583059-f472cc00-8121-11eb-8a35-74c18a2f3321.png height="40%" width="40%">
 
 ### Backend
 - setting up a functioning website (Flask)
