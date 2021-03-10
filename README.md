@@ -78,6 +78,19 @@ Other Features:
      - take the user input and open up the selected soundboard: [code](https://github.com/kevin-dough/p5slackbots/blob/2956a9366568541b7e7fa9761d11771c9efded2d/main.py#L98-L104)
 <img src=https://user-images.githubusercontent.com/54718041/110583876-35b7ab80-8123-11eb-8eec-67feef239099.png />
 
+### Deployment
+- gunicorn, nginx, linux
+- easily accesible domain name ("slackboard.cf")
+- easily updated through git
+- status can be checked linux systemctl commands
+
+### Crossover Visibility
+- Jinja loops to display soundboards instead of writing many lines of repetitive code
+     - [memeboard data](https://github.com/kevin-dough/p5slackbots/blob/main/memeboarddata.py) & [beatboard data](https://github.com/kevin-dough/p5slackbots/blob/main/beatboarddata.py)
+     - [memeboard jinja](https://github.com/kevin-dough/p5slackbots/blob/c67184a6cf815f9d8d036ee3336eb0beb4d76b76/templates/memeboard.html#L8-L22) & [beatboard jinja](https://github.com/kevin-dough/p5slackbots/blob/c67184a6cf815f9d8d036ee3336eb0beb4d76b76/templates/beatboard.html#L8-L22)
+     - [flask routes](https://github.com/kevin-dough/p5slackbots/blob/c67184a6cf815f9d8d036ee3336eb0beb4d76b76/main.py#L90-L104)
+- [WIP] Display login profile information in profile page
+     - [mock profile](https://github.com/kevin-dough/p5slackbots/blob/main/templates/profile.html) created 
 
 ### Technicals
 #### Kevin (Scrum Master)
